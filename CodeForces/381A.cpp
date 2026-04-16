@@ -16,11 +16,11 @@ int main(){
     while(left<=right){
         int picked;
         if(a[left]>a[right]){
-            picked=left;
+            picked=a[left];
             left++;
         }
         else{
-            picked=right;
+            picked=a[right];
             right--;
         }
         if(turn){
